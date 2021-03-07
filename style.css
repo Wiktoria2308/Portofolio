@@ -267,28 +267,41 @@ footer p {
 }
 
 @media screen and (min-width: 321px) and (max-width: 667px) {
-   
+  .top-list {
+    margin-left: 0;
+    padding-left: 0;
+    justify-content: center;
+  }
+  .top-links li a {
+    margin-right: 1em;
+  }
   .projects-container {
     display: block;
   }
-.wiki {
-  display: none;
-}
-
-.more-about {
-  width: 75%;
-  font-size: 0.9em;
-  text-align: center;
-}
-
-}
-
-@media screen and (max-width: 320px) {
-  
   .wiki {
     display: none;
   }
-  
+
+  .more-about {
+    width: 75%;
+    font-size: 0.9em;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .top-list {
+    margin-left: 0;
+    padding-left: 0;
+    justify-content: center;
+  }
+  .top-links li a {
+    margin-right: 1em;
+  }
+  .wiki {
+    display: none;
+  }
+
   .more-about {
     width: 75%;
     font-size: 0.9em;
