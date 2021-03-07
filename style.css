@@ -32,7 +32,6 @@ body {
 
 .top-list {
   position: relative;
-  top: 15%;
   list-style-type: none;
   display: flex;
   flex-direction: row;
