@@ -267,6 +267,9 @@ footer p {
 }
 
 @media screen and (min-width: 321px) and (max-width: 667px) {
+    .top-list {
+        display: block;
+    }
   .projects-container {
     display: block;
   }
@@ -283,6 +286,9 @@ footer p {
 }
 
 @media screen and (max-width: 320px) {
+     .top-list {
+        display: block;
+    }
   .wiki {
     display: none;
   }
