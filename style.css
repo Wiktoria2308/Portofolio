@@ -22,9 +22,12 @@ body {
 }
 
 .top {
-  margin: 0;
-  border-bottom: 1px solid #e6eaea;
+  background-color: #f4f7f6;
+  border-bottom: 1px solid #c9cccc;
   overflow: hidden;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 .top-list {
