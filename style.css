@@ -251,6 +251,13 @@ footer p {
   display: none;
 }
 
+.to-top {
+position: absolute;
+right: 2em;
+width: 2em;
+}
+
+
 /*        MEDIA QUERY      */
 
 @media screen and (min-width: 668px) and (max-width: 1024px) {
